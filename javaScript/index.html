@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swich</title>
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div>
+        <h1>Escolha o exercício a ser mostrado</h1>
+        <button onclick="mudarDiv(1)">Exercício 1</button>
+        <button onclick="mudarDiv(2)">Exercício 2</button>
+        <button onclick="mudarDiv(3)">Exercício 3</button>
+        <button onclick="mudarDiv(4)">Exercício</button>
+        <button onclick="MudarDiv(5)">Exercício 5</button>
+    </div>
+
+    <div id="categoria" class="content">
+        <h2 > Exercício 1</h2>
+        <label for="codigoCategoria"> Digite o codigo da categoria de (1 a 5)</label>
+        <input type="number" id="codigoCategoria">
+        <button onclick='verificarCategoria(`${document.getElementById("codigoCategoria")}`)'> Vervificar</button>
+        <p id="resultadoCategoria"></p>
+    </div>
+
+    <div id="diaSemana" class="content">
+        <h2 > Exercício 2</h2>
+        <label for="numeroSemana"> Digite um numero ( 1 a 7) e verifique o dia da semana correspôndente</label>
+        <input type="number" id="numeroSemana">
+        <button onclick="VerificarDiaSemana()">verificar</button>
+        <p id="resultadoDiaSemana"></p>
+    </div>
+
+    <div id="sinalTransito" class="content">
+        <h2 > Exercício 3</h2>
+        <label for="codigoSinal">Digite um numero de 1 á 3 para ver a cor do sinal de trânsito</label>
+        <input type="number" id="codigoSinal">
+        <button onclick="verificarSinal()"> Vervificar</button>
+        <p id="resultadoCodigoSinal"></p>
+    </div>
+
+    <div id="nivelEnsino" class="content">
+        <h2 > Exercício 3</h2>
+        <label for="nivelEnsino">Digite um numero de 1 á 4 para saber o nível de escolaridade:</label>
+        <input type="number" id="nivelEnsino">
+        <button onclick="verificarEsolaridade()"> Vervificar</button>
+        <p id="resultadoCodigoSinal"></p>
+    </div>
+
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

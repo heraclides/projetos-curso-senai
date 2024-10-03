@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+        width: 100px;
+        height: 40px;
+        background-color: cadetblue;
+        text-align: center;
+        color: black;
+        font-size: 1rem;
+    }
+
+.content {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    display: none;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.content.active {
+    display: flex;
+}
+

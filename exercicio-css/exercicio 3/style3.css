@@ -1,0 +1,11 @@
+.container{
+    background-color: #c3c3c3;
+    border: 3px solid red;
+}
+
+.fixed-text{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+}

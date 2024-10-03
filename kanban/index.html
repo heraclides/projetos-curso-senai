@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <span>Jogo dos cards</span>
+            <h1>Organize os cards de acordo com sua coluna</h1>
+             <!-- Elemento para mostrar a quantidade de movimentos -->
+            <div class="move-count">Movimentações: <span id="moveCounter">0</span></div>
+        </header>
+
+        <section class="columns">
+            <section class="column">
+                <h2 class="column_title">Coluna 1</h2>
+                <section class="column_cards">
+                    <section class="card" draggable="true">card 3</section>
+                    <section class="card" draggable="true">card 3</section>
+                    <section class="card" draggable="true">card 2</section>
+                    <section class="card" draggable="true">card 2</section>
+                </section>
+            </section>
+
+            <section class="column">
+                <h2 class="column_title">Coluna 2</h2>
+                <section class="column_cards">
+                    <section class="card" draggable="true">card 1</section>
+                    <section class="card" draggable="true">card 3</section>
+                    <section class="card" draggable="true">card 1</section>
+                    <section class="card" draggable="true">card 3</section>
+                </section>
+            </section>
+
+            <section class="column">
+                <h2 class="column_title">Coluna 3</h2>
+                <section class="column_cards">
+                    <section class="card" draggable="true">card 2</section>
+                    <section class="card" draggable="true">card 1</section>
+                    <section class="card" draggable="true">card 1</section>
+                    <section class="card" draggable="true">card 2</section> 
+                </section>
+            </section>
+        </section>            
+    </main>
+</body>
+</html>

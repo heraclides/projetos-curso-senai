@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <h3>Cadastre seu Curriculo para maiores chance de emprego!</h3>
+            <svg class="arrows">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+              
+            </svg>
+        </div>
+
+        <div class="form-container">
+            <div class="header">
+                <p>Formulário para vaga de emprego</p>
+            </div>
+
+            <div class="form-body">
+                <h1>Bem Vindo</h1>
+                <p>Preencha o formulário abaixo para se cadastrar</p>
+            
+                <form>
+
+                    <div class="box-input">
+                        <label for="title">Nome <span class="required">*</span></label>
+                        <input type="text"
+                        name="name"
+                        class="block"
+                        placeholder="Digite seu nome"
+                        required
+                        minlength="1"
+                        maxlength="30"
+                        >
+                    
+                    </div>
+
+                    <div class="box-input">
+                        <label for="email">E-mail<span class="required">*</span></label>
+                        <input type="email"
+                        name="email"
+                        class="block"
+                        placeholder="Digite seu email"
+                        required
+                        >
+                    
+                    </div>
+                    
+                    <div class="box-input">
+                        <label for="phone">Telefone<span class="required">*</span></label>
+                        <input type="number"
+                        name="phone"
+                        class="block"
+                        placeholder="(xx) 9 XXXX-XXXX"
+                        required
+                        >
+                    
+                    </div>
+
+                    <div class="box-input">
+                        <label for="text">Endereço<span class="required">*</span></label>
+                        <input type="text"
+                        name="address"
+                        class="block"
+                        placeholder="Digite seu endereço"
+                        required
+                        >
+                    
+                    </div>
+
+                    <div class="box-input">
+                        <label for="text">Cidade<span class="required">*</span></label>
+                        <input type="text"
+                        name="city"
+                        class="block"
+                        placeholder="Digite o nome da cidade"
+                        required
+                        >
+                    
+                    </div>
+
+                    <div class="box-input">
+                        <label for="date">Data de nascimento<span class="required">*</span></label>
+                        <input type="date"
+                        name="date"
+                        class="block"
+                        required
+                        >
+                    
+                    </div>
+
+                    
+
+                    <button type="submit" value="Enviar" class="btn-submit">enviar</button>
+                </form>
+            
+            
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
